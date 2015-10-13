@@ -1,2 +1,5 @@
 # Guard against setting environment variables twice
 export ENVIRON_SET=1
+
+# MacPorts
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"

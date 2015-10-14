@@ -14,3 +14,4 @@ shopt -s histappend
 HISTSIZE=1000000
 HISTFILESIZE=1000000000
 HISTCONTROL=ignoreboth
+PROMPT_COMMAND='history -a'

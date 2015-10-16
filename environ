@@ -3,3 +3,6 @@ export ENVIRON_SET=1
 
 # MacPorts
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
+# Less
+export LESSHISTFILE=-

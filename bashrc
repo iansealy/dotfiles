@@ -15,3 +15,8 @@ HISTSIZE=1000000
 HISTFILESIZE=1000000000
 HISTCONTROL=ignoreboth
 PROMPT_COMMAND='history -a'
+
+# Bash completion
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+  . /opt/local/etc/profile.d/bash_completion.sh
+fi

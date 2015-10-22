@@ -1,0 +1,5 @@
+# VeraCrypt
+alias mnt-crypt='/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt \
+  --text --keyfiles="" --protect-hidden=no /shared/veracrypt.hc ~/mnt/crypt'
+alias umnt-crypt='/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt \
+  --dismount /shared/veracrypt.hc && touch /shared/veracrypt.hc'

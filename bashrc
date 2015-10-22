@@ -20,3 +20,8 @@ PROMPT_COMMAND='history -a'
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
   . /opt/local/etc/profile.d/bash_completion.sh
 fi
+
+# Aliases
+if [ -f ~/.aliases ]; then
+  . ~/.aliases
+fi

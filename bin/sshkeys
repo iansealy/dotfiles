@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+VC="/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt"
+VOL="/shared/veracrypt.hc"
+MNT="$HOME/mnt/crypt"
+TMP="$HOME/.ssh/tmp"
+
+diskutil info $MNT > /dev/null
+not_mounted=$?
+
+if [ "$not_mounted" -gt 0 ]; then
+  $VC --text --keyfiles="" --protect-hidden=no $VOL $MNT
+fi
+
+mkdir $TMP
+cp `ls $MNT/ssh/* | grep -v '\.'` $TMP
+chmod -R go-rwx $TMP
+ssh-add -D
+ssh-add -t 20h $TMP/*
+rm -rf $TMP
+
+if [ "$not_mounted" -gt 0 ]; then
+  $VC --dismount $VOL
+  touch $VOL
+fi

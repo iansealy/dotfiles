@@ -2,7 +2,7 @@
 export ENVIRON_SET=1
 
 # MacPorts
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="/opt/local/libexec/gnubin:/opt/local/bin:/opt/local/sbin:$PATH"
 
 # Personal bin
 export PATH="$HOME/bin:$PATH"

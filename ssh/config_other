@@ -1,0 +1,51 @@
+# Sanger
+
+Host sanger
+HostName ssh.sanger.ac.uk
+User is1
+LocalForward  3128 wwwcache.sanger.ac.uk:3128
+LocalForward  2200 farm3-head1:22
+LocalForward  2201 gen1a:22
+LocalForward  2202 web-wwwsand-03:22
+LocalForward 44500 fastnfs:445
+
+Host farm3
+HostName localhost
+Port 2200
+User is1
+
+Host gen1
+HostName localhost
+Port 2201
+User is1
+
+Host web-wwwsand-03
+HostName localhost
+Port 2202
+User is1
+
+
+# DreamHost
+
+Host dreamhost
+HostName iansealy.com
+User iansealy
+
+Host skipling
+HostName skipling.com
+User skipling
+
+Host bbkweb
+HostName bbkweb.org
+User iansealy
+
+Host highovercodeclub
+HostName highovercodeclub.org.uk
+User highovercodeclub
+
+
+# University of Bristol
+
+Host personal
+HostName personal.ilrt.bris.ac.uk
+User bzims

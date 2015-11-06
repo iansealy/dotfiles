@@ -1,0 +1,19 @@
+# Home
+
+Host home
+HostName 192.168.0.141
+User iansealy
+
+Host orca
+HostName 192.168.0.10
+User iansealy
+
+Host kevin
+HostName 192.168.0.16
+User iansealy
+
+Host orcawired
+HostName 192.168.0.110
+User iansealy
+
+

@@ -1,6 +1,7 @@
 # Set environment variables if not set already
 if [[ ! $ENVIRON_SET ]]; then
   . ~/.environ
+  . ~/.environ.private
 fi
 
 # Check if interactive

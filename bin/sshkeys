@@ -9,7 +9,7 @@ diskutil info $MNT > /dev/null
 not_mounted=$?
 
 if [ "$not_mounted" -gt 0 ]; then
-  $VC --text --keyfiles="" --protect-hidden=no $VOL $MNT
+  $VC --text --keyfiles="" --protect-hidden=no $VOL $MNT || exit
 fi
 
 mkdir $TMP

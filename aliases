@@ -11,8 +11,10 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -f'
 alias komodo='/Applications/Komodo\ Edit\ 9.app/Contents/MacOS/komodo'
 
 # SSH
-alias      athome='cat ~/.ssh/.config_home_insidehome  ~/.ssh/.config_other > ~/.ssh/config'
-alias atelsewhere='cat ~/.ssh/.config_home_outsidehome ~/.ssh/.config_other > ~/.ssh/config'
+alias      athome='cat ~/.ssh/.config_home_insidehome  ~/.ssh/.config_other \
+  > ~/.ssh/config'
+alias atelsewhere='cat ~/.ssh/.config_home_outsidehome ~/.ssh/.config_other \
+  > ~/.ssh/config'
 
 # Sanger mounts
 alias mnt-sanger-team31='mount_smbfs -o soft \

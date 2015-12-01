@@ -24,3 +24,6 @@ alias umnt-sanger-zmr='diskutil unmount ~/mnt/sanger/zmr'
 alias mnt-sanger-tsd='mount_smbfs -o soft \
   //is1@localhost:44500/team31_shared_docs ~/mnt/sanger/tsd'
 alias umnt-sanger-tsd='diskutil unmount ~/mnt/sanger/tsd'
+
+# Pico
+alias pico=nano

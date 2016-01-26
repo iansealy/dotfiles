@@ -10,9 +10,6 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -f'
 # Komodo Edit
 alias komodo='/Applications/Komodo\ Edit\ 9.app/Contents/MacOS/komodo'
 
-# Atom
-alias atom='/Applications/Atom.app/Contents/MacOS/Atom'
-
 # SSH
 alias      athome='cat ~/.ssh/.config_home_insidehome  ~/.ssh/.config_other \
   > ~/.ssh/config'

@@ -34,3 +34,6 @@ alias pico=nano
 alias t='~/checkouts/todo.txt-cli/todo.sh -d ~/.todo'
 alias twork='clear; t ls @work; t due @work'
 alias trest='clear; t ls -@work; t due -@work'
+
+# LibreOffice
+alias openlibre='open -a /Applications/LibreOffice.app/Contents/MacOS/soffice'

@@ -37,3 +37,7 @@ alias trest='clear; t ls -@work; t due -@work'
 
 # LibreOffice
 alias openlibre='open -a /Applications/LibreOffice.app/Contents/MacOS/soffice'
+
+# youtube-dl
+alias youtube-dl-audio='youtube-dl -o "%(title)s.%(ext)s" \
+  --restrict-filenames --extract-audio --audio-format mp3'

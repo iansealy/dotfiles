@@ -1,0 +1,29 @@
+# BioPerl
+function bioperl() {
+  BASE=/shared/bioperl/bioperl
+  if [ ! -d "$BASE-$1" ]; then
+    echo "$BASE-$1 does not exist"
+  else
+    tmp=$(echo $PERL5LIB | tr ":" "\n" | grep -v ^$BASE | tr "\n" ":")
+    export PERL5LIB=$(echo "$BASE-$1:$tmp" | sed 's/:*$//')
+  fi
+}
+export -f bioperl
+bioperl 1-6-1
+
+# Ensembl
+function ensembl() {
+  BASE=/shared/ensembl/ensembl
+  if [ ! -d "$BASE-$1" ]; then
+    echo "$BASE-$1 does not exist"
+  else
+    tmp=$(echo $PERL5LIB | tr ":" "\n" | grep -v ^$BASE | tr "\n" ":")
+    for module in ensembl-variation ensembl-compara ensembl
+    do
+      tmp="$BASE-$1/$module/modules:$tmp"
+    done
+    export PERL5LIB=$(echo "$tmp" | sed 's/:*$//')
+  fi
+}
+export -f ensembl
+ensembl 83

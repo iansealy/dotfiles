@@ -26,3 +26,8 @@ fi
 if [ -f ~/.aliases ]; then
   . ~/.aliases
 fi
+
+# Functions
+if [ -f ~/.functions ]; then
+  . ~/.functions
+fi

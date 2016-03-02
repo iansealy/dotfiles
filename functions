@@ -9,7 +9,6 @@ function bioperl() {
   fi
 }
 export -f bioperl
-bioperl 1-6-9
 
 # Ensembl
 function ensembl() {

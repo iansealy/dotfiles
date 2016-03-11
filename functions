@@ -26,3 +26,10 @@ function ensembl() {
 }
 export -f ensembl
 ensembl 83
+
+# Farm: autossh + screen
+function farm() {
+  HOST=farm3
+  autossh -M 0 -t $HOST screen -dr $1
+}
+export -f farm

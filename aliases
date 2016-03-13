@@ -41,3 +41,7 @@ alias openlibre='open -a /Applications/LibreOffice.app/Contents/MacOS/soffice'
 # youtube-dl
 alias youtube-dl-audio='youtube-dl -o "%(title)s.%(ext)s" \
   --restrict-filenames --extract-audio --audio-format mp3'
+
+# local::lib
+alias local-lib-on='eval $(perl -Mlocal::lib)'
+alias local-lib-off='eval $(perl -Mlocal::lib=--deactivate-all)'

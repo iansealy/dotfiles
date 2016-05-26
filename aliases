@@ -54,3 +54,6 @@ alias youtube-dl-audio='youtube-dl -o "%(title)s.%(ext)s" \
 # local::lib
 alias local-lib-on='eval $(perl -Mlocal::lib)'
 alias local-lib-off='eval $(perl -Mlocal::lib=--deactivate-all)'
+
+# abook
+alias abook='abook --datafile ~/Dropbox/addressbook'

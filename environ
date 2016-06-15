@@ -10,6 +10,10 @@ export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 # MacPorts
 export PATH="/opt/local/libexec/gnubin:/opt/local/bin:/opt/local/sbin:$PATH"
 
+# Go
+export GOPATH="$HOME/go"
+export PATH="${GOPATH//://bin:}/bin:$PATH"
+
 # dasht
 export PATH="$HOME/checkouts/dasht/bin:$PATH"
 

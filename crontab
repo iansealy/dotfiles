@@ -1,0 +1,7 @@
+PATH=/opt/local/libexec/gnubin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+30 10,12,15,17,20,23 * * *	/opt/local/bin/rsnapshot alpha
+20 12 * * *	/opt/local/bin/rsnapshot beta
+10 12 * * 3	/opt/local/bin/rsnapshot gamma
+00 12 1 * *	/opt/local/bin/rsnapshot delta
+40 * * * *      /Users/iansealy/bin/gister sync

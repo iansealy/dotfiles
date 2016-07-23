@@ -57,3 +57,6 @@ alias local-lib-off='eval $(perl -Mlocal::lib=--deactivate-all)'
 
 # abook
 alias abook='abook --datafile ~/Dropbox/addressbook'
+
+# DRKSpiderJava
+alias drkspider='java -jar ~/Applications/DRKSpiderJava/drkspiderjava.jar'

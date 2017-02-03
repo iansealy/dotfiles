@@ -3,6 +3,7 @@
 	email = git@iansealy.com
 [core]
 	editor = nano
+	precomposeunicode = true
 [push]
 	default = simple
 [gist]

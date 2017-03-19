@@ -8,6 +8,10 @@ Host orca
 HostName 192.168.0.10
 User iansealy
 
+Host patrick
+HostName 192.168.0.11
+User iansealy
+
 Host zebra
 HostName 192.168.0.12
 User iansealy

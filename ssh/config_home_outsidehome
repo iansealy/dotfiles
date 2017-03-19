@@ -4,6 +4,7 @@ Host home
 HostName home.iansealy.com
 User iansealy
 LocalForward 2210 192.168.0.10:22
+LocalForward 2211 192.168.0.11:22
 LocalForward 2212 192.168.0.12:22
 LocalForward 2216 192.168.0.16:22
 LocalForward 2310 192.168.0.110:22
@@ -13,6 +14,11 @@ DynamicForward 1080
 Host orca
 HostName localhost
 Port 2210
+User iansealy
+
+Host patrick
+HostName localhost
+Port 2211
 User iansealy
 
 Host zebra

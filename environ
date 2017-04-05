@@ -20,6 +20,9 @@ export PATH="${GOPATH//://bin:}/bin:$PATH"
 # dasht
 export PATH="$HOME/checkouts/dasht/bin:$PATH"
 
+# kent
+export PATH="/usr/local/kent:$PATH"
+
 # Personal bin
 export PATH="$HOME/bin:$PATH"
 

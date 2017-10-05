@@ -13,6 +13,7 @@ export -f bioperl
 # Ensembl
 function ensembl() {
   BASE=/shared/ensembl/ensembl
+  EGBASE=/shared/ensembl/ensemblgenomes
   if [ ! -d "$BASE-$1" ]; then
     echo "$BASE-$1 does not exist"
   else
@@ -21,6 +22,10 @@ function ensembl() {
     do
       tmp="$BASE-$1/$module/modules:$tmp"
     done
+    EG=$(( $1 - 53 ))
+    if [ -d "$EGBASE-$EG" ]; then
+      tmp="$EGBASE-$EG/ensemblgenomes-api/modules:$tmp"
+    fi
     export PERL5LIB=$(echo "$tmp" | sed 's/:*$//')
   fi
 }

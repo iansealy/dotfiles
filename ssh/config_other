@@ -49,3 +49,10 @@ User highovercodeclub
 Host personal
 HostName personal.ilrt.bris.ac.uk
 User bzims
+
+
+# VirtualBox
+
+Host virtual
+HostName localhost
+Port 2222

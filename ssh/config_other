@@ -7,7 +7,6 @@ LocalForward  3128 wwwcache.sanger.ac.uk:3128
 LocalForward  2200 farm3-head3:22
 LocalForward  2201 gen1a:22
 LocalForward  2202 web-wwwsand-03:22
-LocalForward  3306 web-wwwdb-core-02:3449
 LocalForward 44500 fastnfs:445
 
 Host farm3

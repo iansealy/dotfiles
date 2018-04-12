@@ -26,6 +26,9 @@ alias umnt-sanger-zmr='diskutil unmount ~/mnt/sanger/zmr'
 alias mnt-sanger-tsd='mount_smbfs -o soft \
   //is1@localhost:44500/team31_shared_docs ~/mnt/sanger/tsd'
 alias umnt-sanger-tsd='diskutil unmount ~/mnt/sanger/tsd'
+alias mnt-sanger-is1='mount_smbfs -o soft \
+  //is1@localhost:44501/user_homes_1a/nfs_i/is1 ~/mnt/sanger/is1'
+alias umnt-sanger-is1='diskutil unmount ~/mnt/sanger/is1'
 alias mnt-sanger-all='mount_smbfs -o soft \
   //is1@localhost:44500/Team31 ~/mnt/sanger/team31; \
   mount_smbfs -o soft \

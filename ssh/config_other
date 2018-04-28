@@ -57,3 +57,7 @@ User bzims
 Host virtual
 HostName localhost
 Port 2222
+
+Host mmorpg
+HostName localhost
+Port 2223

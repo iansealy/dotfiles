@@ -61,3 +61,7 @@ Port 2222
 Host mmorpg
 HostName localhost
 Port 2223
+
+Host biostar
+HostName localhost
+Port 2224

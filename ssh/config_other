@@ -36,6 +36,10 @@ Host skipling
 HostName skipling.com
 User skipling
 
+Host buschlab
+HostName www.buschlab.org
+User buschlab
+
 Host bbkweb
 HostName bbkweb.org
 User iansealy
@@ -43,25 +47,3 @@ User iansealy
 Host highovercodeclub
 HostName highovercodeclub.org.uk
 User highovercodeclub
-
-
-# University of Bristol
-
-Host personal
-HostName personal.ilrt.bris.ac.uk
-User bzims
-
-
-# VirtualBox
-
-Host virtual
-HostName localhost
-Port 2222
-
-Host mmorpg
-HostName localhost
-Port 2223
-
-Host biostar
-HostName localhost
-Port 2224

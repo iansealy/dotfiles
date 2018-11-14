@@ -11,7 +11,7 @@ export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 export PATH="/opt/local/libexec/gnubin:/opt/local/bin:/opt/local/sbin:$PATH"
 
 # MacPorts MySQL bin
-export PATH="/opt/local/lib/mysql56/bin:$PATH"
+export PATH="/opt/local/lib/mariadb/bin:$PATH"
 
 # Go
 export GOPATH="$HOME/go"

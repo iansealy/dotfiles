@@ -1,6 +1,6 @@
 # BioPerl
 function bioperl() {
-  BASE=/shared/bioperl/bioperl
+  BASE=/scratch/bioperl/bioperl
   if [ ! -d "$BASE-$1" ]; then
     echo "$BASE-$1 does not exist"
   else
@@ -12,8 +12,8 @@ export -f bioperl
 
 # Ensembl
 function ensembl() {
-  BASE=/shared/ensembl/ensembl
-  EGBASE=/shared/ensembl/ensemblgenomes
+  BASE=/scratch/ensembl/ensembl
+  EGBASE=/scratch/ensembl/ensemblgenomes
   if [ ! -d "$BASE-$1" ]; then
     echo "$BASE-$1 does not exist"
   else

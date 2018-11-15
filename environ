@@ -1,6 +1,9 @@
 # Guard against setting environment variables twice
 export ENVIRON_SET=1
 
+# VS Code
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+
 # npm bin
 export PATH="$HOME/node_modules/.bin:$PATH"
 

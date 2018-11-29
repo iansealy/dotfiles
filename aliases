@@ -7,9 +7,6 @@ alias umnt-crypt='/Applications/VeraCrypt.app/Contents/MacOS/VeraCrypt \
 # VLC
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC -f'
 
-# Komodo Edit
-alias komodo='/Applications/Komodo\ Edit\ 8.app/Contents/MacOS/komodo'
-
 # SSH
 alias      athome='cat ~/.ssh/.config_home_insidehome  ~/.ssh/.config_other \
   > ~/.ssh/config'

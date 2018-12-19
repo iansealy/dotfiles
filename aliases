@@ -44,9 +44,6 @@ alias t='~/checkouts/todo.txt-cli/todo.sh -d ~/.todo'
 alias twork='clear; t ls @work; t due @work'
 alias trest='clear; t ls -@work -@eutrema; t due -@work -@eutrema'
 
-# LibreOffice
-alias openlibre='open -a /Applications/LibreOffice.app/Contents/MacOS/soffice'
-
 # youtube-dl
 alias youtube-dl-audio='youtube-dl -o "%(title)s.%(ext)s" \
   --restrict-filenames --extract-audio --audio-format mp3'
@@ -60,6 +57,3 @@ alias abook='abook --config ~/.abookrc --datafile ~/Dropbox/addressbook'
 alias abookconv='rm -f ~/Dropbox/addressbook.vcf; \
   abook --convert --infile ~/Dropbox/addressbook \
   --outformat vcard --outfile ~/Dropbox/addressbook.vcf'
-
-# DRKSpiderJava
-alias drkspider='java -jar ~/Applications/DRKSpiderJava/drkspiderjava.jar'

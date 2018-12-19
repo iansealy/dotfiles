@@ -57,3 +57,8 @@ alias abook='abook --config ~/.abookrc --datafile ~/Dropbox/addressbook'
 alias abookconv='rm -f ~/Dropbox/addressbook.vcf; \
   abook --convert --infile ~/Dropbox/addressbook \
   --outformat vcard --outfile ~/Dropbox/addressbook.vcf'
+
+# Perl
+alias dzil=dzil-5.26
+alias exiftool=exiftool-5.26
+alias rename=rename-5.26

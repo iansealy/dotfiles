@@ -5,8 +5,9 @@ HostName ssh.sanger.ac.uk
 User is1
 LocalForward  3128 wwwcache.sanger.ac.uk:3128
 LocalForward  2200 farm3-head3:22
-LocalForward  2201 gen1a:22
-LocalForward  2202 web-wwwsand-03:22
+LocalForward  2201 farm4-head2:22
+LocalForward  2202 gen1a:22
+LocalForward  2203 web-wwwsand-03:22
 LocalForward 44500 file01-s0:445
 LocalForward 44501 netapp1a:445
 
@@ -15,14 +16,19 @@ HostName localhost
 Port 2200
 User is1
 
-Host gen1
+Host farm4
 HostName localhost
 Port 2201
 User is1
 
-Host web-wwwsand-03
+Host gen1
 HostName localhost
 Port 2202
+User is1
+
+Host web-wwwsand-03
+HostName localhost
+Port 2203
 User is1
 
 

@@ -5,7 +5,7 @@ HostName ssh.sanger.ac.uk
 User is1
 LocalForward  3128 wwwcache.sanger.ac.uk:3128
 LocalForward  2200 farm3-head3:22
-LocalForward  2201 farm4-head2:22
+LocalForward  2201 farm4-head1:22
 LocalForward  2202 gen1a:22
 LocalForward  2203 web-wwwsand-03:22
 LocalForward 44500 file01-s0:445

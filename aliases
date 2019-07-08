@@ -59,6 +59,5 @@ alias abookconv='rm -f ~/Dropbox/addressbook.vcf; \
   --outformat vcard --outfile ~/Dropbox/addressbook.vcf'
 
 # Perl
-alias dzil=dzil-5.26
-alias exiftool=exiftool-5.26
+alias dzil=dzil-5.28
 alias rename=rename-5.26

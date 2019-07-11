@@ -12,7 +12,7 @@ if [ "$not_mounted" -gt 0 ]; then
   $VC --text --keyfiles="" --protect-hidden=no $VOL $MNT || exit
 fi
 
-mkdir $TMP
+mkdir -p $TMP
 cp `ls $MNT/ssh/* | grep -v '\.'` $TMP
 chmod -R go-rwx $TMP
 ssh-add -D

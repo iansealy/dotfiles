@@ -1,3 +1,9 @@
+# Cambridge
+
+Host csd3
+HostName login-cpu.hpc.cam.ac.uk
+User is460
+
 # Sanger
 
 Host sanger

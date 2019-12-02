@@ -39,3 +39,18 @@ function farm() {
   autossh -M 0 -t $HOST screen -dr $1
 }
 export -f farm
+function farm3() {
+  HOST=farm3
+  autossh -M 0 -t $HOST screen -dr $1
+}
+export -f farm3
+function farm4() {
+  HOST=farm4
+  autossh -M 0 -t $HOST screen -dr $1
+}
+export -f farm4
+function farm5() {
+  HOST=farm5
+  autossh -M 0 -t $HOST screen -dr $1
+}
+export -f farm5

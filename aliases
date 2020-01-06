@@ -46,7 +46,8 @@ alias pico=nano
 alias t='~/checkouts/todo.txt-cli/todo.sh -d ~/.todo'
 alias twork='clear; t ls @work; t due @work'
 alias tlearning='clear; t ls @learning; t due @learning'
-alias trest='clear; t ls -@work -@learning; t due -@work -@learning'
+alias tkillingtime='clear; t ls @killingtime; t due @killingtime'
+alias trest='clear; t ls -@work -@learning -@killingtime; t due -@work -@learning -@killingtime'
 
 # youtube-dl
 alias youtube-dl-audio='youtube-dl -o "%(title)s.%(ext)s" \

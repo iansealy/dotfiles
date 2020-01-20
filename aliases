@@ -16,6 +16,22 @@ alias atelsewhere='cat ~/.ssh/.config_home_outsidehome ~/.ssh/.config_other \
 # Cambridge Alpine
 alias camalpine='alpine -p "{imap.hermes.cam.ac.uk/user=is460/ssl}remote_pinerc"'
 
+# Cambridge mounts
+alias camvpn='VAGRANT_CWD=~/checkouts/vagrantfiles/camvpn vagrant up; \
+  VAGRANT_CWD=~/checkouts/vagrantfiles/camvpn vagrant ssh -c "sudo openfortivpn" -- -L 44510:jcbc-store01.jcbc.private.cam.ac.uk:445'
+alias mnt-cam-busch='mount_smbfs -o soft \
+  //is460@localhost:44510/citiid_grp_busch_nentwich ~/mnt/cam/busch'
+alias umnt-cam-busch='diskutil unmount ~/mnt/cam/busch'
+alias mnt-cam-is460='mount_smbfs -o soft \
+  //is460@localhost:44510/citiid_home/is460 ~/mnt/cam/is460'
+alias umnt-cam-is460='diskutil unmount ~/mnt/cam/is460'
+alias mnt-cam-all='mount_smbfs -o soft \
+  //is460@localhost:44510/citiid_grp_busch_nentwich ~/mnt/cam/busch; \
+  mount_smbfs -o soft \
+  //is460@localhost:44510/citiid_home/is460 ~/mnt/cam/is460'
+alias umnt-cam-all='diskutil unmount ~/mnt/cam/busch; \
+  diskutil unmount ~/mnt/cam/is460'
+
 # Sanger mounts
 alias mnt-sanger-team31='mount_smbfs -o soft \
   //is1@localhost:44500/Team31 ~/mnt/sanger/team31'

@@ -67,3 +67,11 @@ User iansealy
 Host highovercodeclub
 HostName highovercodeclub.org.uk
 User highovercodeclub
+
+
+# VM
+
+Host alpine
+HostName 127.0.0.1
+Port 2220
+User root

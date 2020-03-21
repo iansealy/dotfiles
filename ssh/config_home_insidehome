@@ -16,8 +16,11 @@ Host kevin
 HostName 192.168.0.16
 User iansealy
 
+Host pi
+HostName 192.168.0.100
+User ubuntu
+
 Host zebrawired
 HostName 192.168.0.112
 User iansealy
-
 

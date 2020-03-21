@@ -6,6 +6,7 @@ User iansealy
 LocalForward 2211 192.168.0.11:22
 LocalForward 2212 192.168.0.12:22
 LocalForward 2216 192.168.0.16:22
+LocalForward 2300 192.168.0.100:22
 LocalForward 2312 192.168.0.112:22
 DynamicForward 1080
 
@@ -23,6 +24,11 @@ Host kevin
 HostName localhost
 Port 2216
 User iansealy
+
+Host pi
+HostName localhost
+Port 2300
+User ubuntu
 
 Host zebrawired
 HostName localhost

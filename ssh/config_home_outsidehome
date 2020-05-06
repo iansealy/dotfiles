@@ -3,36 +3,12 @@
 Host home
 HostName home.iansealy.com
 User iansealy
-LocalForward 2211 192.168.0.11:22
-LocalForward 2212 192.168.0.12:22
-LocalForward 2216 192.168.0.16:22
-LocalForward 2300 192.168.0.100:22
-LocalForward 2312 192.168.0.112:22
+LocalForward 2210 192.168.1.10:22
 DynamicForward 1080
-
-Host patrick
-HostName localhost
-Port 2211
-User iansealy
-
-Host zebra
-HostName localhost
-Port 2212
-User iansealy
-
-Host kevin
-HostName localhost
-Port 2216
-User iansealy
 
 Host pi
 HostName localhost
-Port 2300
+Port 2210
 User ubuntu
-
-Host zebrawired
-HostName localhost
-Port 2312
-User iansealy
 
 

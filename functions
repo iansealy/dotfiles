@@ -39,3 +39,10 @@ function farm() {
   autossh -M 0 -t $HOST screen -dr $1
 }
 export -f farm
+
+# CSD3: autossh + screen
+function csd3() {
+  HOST=csd3
+  autossh -M 0 -t $HOST screen -dr $1
+}
+export -f csd3

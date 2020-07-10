@@ -1,7 +1,7 @@
 # Cambridge
 
 Host csd3
-HostName login-cpu.hpc.cam.ac.uk
+HostName login-e-9.hpc.cam.ac.uk
 User is460
 UpdateHostKeys ask
 

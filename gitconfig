@@ -8,3 +8,5 @@
 	default = simple
 [gist]
 	home = /Users/iansealy/checkouts/gist
+[pull]
+	rebase = false

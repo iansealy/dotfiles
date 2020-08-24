@@ -10,6 +10,9 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 # npm bin
 export PATH="$HOME/node_modules/.bin:$PATH"
 
+# Ruby bin
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+
 # Python bin
 export PATH="$HOME/Library/Python/3.7/bin:$PATH"
 

@@ -35,3 +35,7 @@ Host alpine
 HostName 127.0.0.1
 Port 2220
 User root
+
+Host ubuntu2004
+HostName 127.0.0.1
+Port 2004
